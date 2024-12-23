@@ -122,7 +122,7 @@ int main() {
         int num1 = romanToDecimal(roman1);                          // Convert first Roman numeral to decimal
         int num2 = romanToDecimal(roman2);                          // Convert second Roman numeral to decimal
 
-        // Check if the Roman numerals are valid
+        // Check if the Roman numerals are invalid
         if (num1 == -1 || num2 == -1) {                             
             fprintf(outFile, "Invalid Roman Numeral\n");            // Write an error message to the output file
         } else {
