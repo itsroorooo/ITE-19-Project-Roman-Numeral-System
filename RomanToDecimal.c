@@ -22,7 +22,7 @@ int romanToDecimal(char roman[]) {
     int result = 0;                                     // Initialize result to 0
     for (int i = 0; roman[i] != '\0'; i++) {            // Loop through each character of the Roman numeral in string
         int current = getRomanValue(roman[i]);          // Get the value of the current Roman numeral
-        if (current == -1) {                            // Check if the numeral is valid
+        if (current == -1) {                            // Check if the numeral is invalid
             return -1;                                  // Return -1 if an invalid Roman numeral is encountered
         }
 
